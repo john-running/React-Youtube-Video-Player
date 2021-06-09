@@ -12,11 +12,9 @@ before_install:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "docker-react-video-player"
-  env: "Dockerreactvideoplayer-env"
+  app: "docker-react"
+  env: "Dockerreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-531836388365"
-
-  
   bucket_path: "docker-react"
   on:
     branch: master
